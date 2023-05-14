@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Biodata Mahasiswa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+         background: linear-gradient(purple, pink, white) no-repeat;
+    background-position: top center;
+    }
+    
+    h1 {
+      margin-bottom: 10px;
+    }
+    
+    h2 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    table, th, td {
+      border: 1px solid black;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+    
+    legend {
+      font-size: 20px;
+      font-weight: bold;
+      color: green;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Biodata Mahasiswa</h1>
+  <hr>
+  <h2>Data Pribadi</h2>
+  <ul>
+    <li><b>Nama:</b> Aulia Irfan Hakim</li>
+    <li><b>NIM:</b> 2200018329</li>
+    <li><b>Jurusan:</b> Informatika</li>
+    <li><b>Angkatan:</b> 2022</li>
+  </ul>
+  
+  <h2>Alamat</h2>
+  <p>
+    Jl. Ringroad Selatan<br>
+    Bantul, Daerah Istimewa Yogyakarta<br>
+    Indonesia<br>
+    <br>
+    <i>Telp:</i> 085000000123<br>
+    <i>Email:</i> 2200018329@webmail.uad.ac.id<br>
+  </p>
+  
+  <h2>Riwayat Pendidikan</h2>
+  <ul>
+    <li><b>SD:</b> SDN 1 Indonesia</li>
+    <li><b>SMP:</b> SMPN 1 Indonesia</li>
+    <li><b>SMA:</b> SMAN 1 Indonesia</li>
+  </ul>
+  
+  <h2>Prestasi</h2>
+  <ul>
+    <li>Juara 1 Lomba Cerdas Cermat Tingkat TK se Asia Tenggara</li>
+    <li>Juara 3 Lomba Menggambar Telur Tingkat TK se Asia Tenggara</li>
+  </ul>
+  
+  <h2>Hobi</h2>
+  <p>
+    Hobi belum ditemukan
+  </p>
+  
+  <h2>Cita-cita</h2>
+  <p>
+    Menjadi seorang yang sukses.
+  </p>
+  
+  <h2>Motto Hidup</h2>
+  <p>
+    Motto hidup belum ditemukan
+  </p>
+  
+  <br>
+  <hr><hr>
+  <p><strong>Berikut adalah biodata saya jika diimplementasikan dalam bentuk tabel</strong></p>
+  
+  <table>
+    <caption><h1>Biodata Mahasiswa</h1></caption>
+    <tr>
+      <td rowspan="9" align="left" height="50%" width="10%">
+  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/1024px-SpongeBob_SquarePants_character.svg.png" alt="SpongeBob" width="200" height="200">
+</td>
+
+<tr>
+  <td width="25%" valign="top" class="text">Nama</td>
+  <td width="2%">:</td>
+  <td>Aulia Irfan Hakim</td>
+</tr>
+<tr>
+  <td>Jenis Kelamin</td>
+  <td>:</td>
+  <td>Laki Laki</td>
+</tr>
+<tr>
+  <td>Agama</td>
+  <td>:</td>
+  <td>Islam</td>
+</tr>
+<tr>
+  <td>Tempat Lahir</td>
+  <td>:</td>
+  <td>Ngawi</td>
+</tr>
+<tr>
+  <td>Tanggal Lahir</td>
+  <td>:</td>
+  <td>00/00/0000</td>
+</tr>
+<tr>
+  <td>Fakultas</td>
+  <td>:</td>
+  <td>Fakultas Teknologi Industri</td>
+</tr>
+<tr>
+  <td>Prodi</td>
+  <td>:</td>
+  <td>Informatika</td>
+</tr>
+<tr>
+  <td>Hobi</td>
+  <td>:</td>
+  <td>-</td>
+</tr>
+</table>
+</fieldset>
+
+<form>
+  <fieldset>
+    <legend><font color="green">Contact</font></legend>
+    <p>Jika Anda memiliki saran atau komentar terhadap web yang saya buat, silakan isi kolom di bawah.</p>
+    <p>
+      <label for="nama">Nama :</label>
+      <input type="text" id="nama" name="nama" placeholder="Nama kamu">
+    </p>
+    <p>
+      <label for="komentar">Komentar :</label>
+      <textarea id="komentar" name="komentar" placeholder="Komentar kamu"></textarea>
+    </p>
+    <p>
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" placeholder="Email kamu">
+    </p>
+    <p>
+      <input type="submit" id="submit" name="submit" value="send">
+    </p>
+  </fieldset>
+</form>
+</td>
+</tr>
+</table>
+
+  <script>
+    // JavaScript Anda akan ditambahkan di sini
+
+    // Contoh 1: Menampilkan pesan saat tombol diklik
+    var submitButton = document.getElementById('submit');
+    submitButton.addEventListener('click', function(event) {
+      event.preventDefault();
+      alert('Terima kasih atas saran dan komentar Anda!');
+    });
+    
+  </script>
+</body>
+</html>
+
